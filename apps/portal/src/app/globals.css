@@ -91,6 +91,14 @@ html {
     --input: 0 0% 85%;
     --ring: 0 0% 80%;
   }
+
+  [data-theme="light"] .dark-only {
+    display: none;
+  }
+
+  [data-theme="dark"] .light-only {
+    display: none;
+  }
 }
 
 code span {
